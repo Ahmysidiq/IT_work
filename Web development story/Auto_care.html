@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>AUTOCARE CAR REEPAIRS</title>
+    <link rel="stylesheet" type="text/css" href="../css/Auto_care.css">
+</head>
+
+<body>
+    <h1>
+        WELCOME TO AUTO CARE
+    </h1>
+    <h2>
+        <nav id="content" >
+            <ul>
+                <li><div flex: 1 0 100px; ><a href="#location">Location</a></div></li>
+                <li><a href="#services">Products and Services</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#about">About us</a></li>
+            </ul>
+        </nav>
+    </h2>
+    <div id="images">
+        <img src="top 1.jpg" alt="Our work" class="first"> <img src="third.jpg" alt="Our work" class="middle"> <img src="about.jpg" alt="Our work" class="last">
+    </div>
+    <article id="location">
+        <h3>
+            LOCATION
+        </h3>
+        <fieldset >
+         <label class="that">What part of the world are you?</label>
+        <br>
+            <input type="text">
+            <label for="country" id="country">Country</label> <br>
+            <input type="text">
+            <label for="state">State</label> <br>
+            <input type="text">
+            <label for="address">Address</label> <br>
+            <input type="text">
+            <label for="postcad">Postcad</label> <br>
+            <input type="text">
+            <label for="email">Email</label> <br>
+        </fieldset>
+    </article>
+
+    <article id="services">
+        <h2> PRODUCTS AND SERVICES OFFERED</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aspernatur ipsam laborum quam harum, itaque
+            neque error asperiores ad reprehenderit architecto autem modi accusamus laudantium dolorum officiis odio
+            doloribus doloremque?
+            Fugiat repudiandae ipsa deserunt molestias natus labore sed reprehenderit sunt necessitatibus! Accusantium
+            enim iure eligendi officiis, adipisci, optio dicta, modi doloribus quibusdam aut iusto! Quibusdam nemo
+            voluptate rerum officiis dolorem!
+        </p>
+        <form action="https://www.google.com">
+            <fieldset class="services">
+                <ul >
+                    <nav id="Services">
+                        <li><a href="#services">Servicing</a></label></li>
+                        <li><a href="#parts_change">Parts change</a></li>
+                        <li><a href="#electrical works">Electrical Works</a></li>
+                        <li><a href="#paint_work">Paint Work</a></li>
+                        <li><a href="#panel_beating">Panel Beating</a></li>
+
+                    </nav>
+                    <hr>
+                    <li><input type="text">Others</li>
+                </ul>
+            </fieldset>
+    </article>
+    <article id="services">
+        <h3>Servicing</h3>
+
+        <p>
+            At Auto care Repair shop, we offer amazing car servicing at a very low rate and deliver quality engine oil
+            to
+            your vehicle. We also offer you a chance to know if an oil change is needed by answering a few questions
+            below.
+        </p>
+        <fieldset>
+            <hr>
+            <p>
+            <ul>
+                <label for="vehicle type">Vehicle type:</label>
+                <input type="text" name="vehicle" id="vehicle" list="vehicle-list">
+                <datalist id="vehicle-list">
+                    <option value="Toyota">
+                    <option value="Honda">
+                    <option value="Mercedes">
+                    <option value="Lexus">
+                    <option value="Volkswagen">
+                    <option value="other">
+                </datalist>
+                </p>
+                <p>
+                    <label for="service year">Last Service Year</label>
+                    <input type="number" name="last_service" id="service year" list="Service-year" min="1" max="4"
+                        step="1" value="1">
+
+                </p>
+                <p>
+                    <label for="milleage">Vehicle Milleage (total distance covered)</label>
+                    <input type="number" name="milleage" id="milleage" list="milleage" min="10000" max="200000"
+                        step="10000" value="40000">
+                </p>
+                <p>
+                    <label for="age">Engine Age</label>
+                    <input type="number" name="age" id="age" list="age" min="1" max="20" step="1">
+                </p>
+            </ul>
+        </fieldset>
+    </article>
+    <hr>
+    <article id="parts_change">
+        <h3>
+            PARTS CHANGE
+        </h3>
+        <legend>
+            <p> Select a part that needs to be changed</p>
+        </legend>
+        <hr>
+        <fieldset>
+            <ul>
+                <li><input type="checkbox" name="parts" id="glass" value="glasss">Glass</li>
+                <li><input type="checkbox" name="parts" id="mirror" value="mirror">Mirror</li>
+                <li><input type="checkbox" name="parts" id="door" value="door">Door</li>
+                <li><input type="checkbox" name="parts" id="bumper" value="bumper">Bummper</li>
+                <li><input type="checkbox" name="parts" id="head_light" value="head_light">Head light</li>
+                <li><input type="checkbox" name="parts" id="seats" value="seats"> Seats</li>
+                <li><input type="text">Others</li>
+            </ul>
+        </fieldset>
+    </article>
+    <hr>
+    <article id="electrical works">
+        <h3>Electrical Works</h3>
+
+        <p>
+        <fieldset>
+            <label for="Electrical works">Electrical Works:</label>
+            <input type="text" name="electrical" id="electrical" list="electrical_work">
+            <datalist id="electrical_work">
+                <option value="AC">
+                <option value="Sound">
+                <option value="Engine">
+                <option value="Lock">
+                <option value="other">
+            </datalist>
+            </p>
+        </fieldset>
+    </article>
+    <hr>
+    <article id="paint_work">
+        <h3>Paint</h3>
+        <label for="paint"> What part of the car would you like painted</label>
+        <input type="text" name="paint " id="paint" list="paint_part">
+        <datalist id="paint_part">
+            <option value="Entire car">
+            <option value="Bumper">
+            <option value="Side">
+            <option value="Rare part">
+        </datalist>
+    </article>
+    <hr>
+    <article id="panel_beating">
+        <h3>Panel Beating</h3>
+        <label for="beating"> What part of the car would you like painted</label>
+        <input type="text" name="beating " id="beating" list="panel_beatin">
+        <datalist id="panel_beatin">
+            <option value="door">
+            <option value="Bumper">
+            <option value="Side">
+            <option value="Rare part">
+        </datalist>
+    </article>
+    <article id="feedback">
+
+
+        <label for="feedback">
+            <legend>
+                <h2>Feedback</h2>
+            </legend>
+        </label>
+        <hr>
+        <textarea name="feedback" id="feedback" placeholder="We would like to hear from you" cols="50"
+            rows="10"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </article>
+</body>
+<footer>
+    <article id="about">
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Ahmed Abubakar</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </article>
+    </form>
+</footer>
+
+</html>

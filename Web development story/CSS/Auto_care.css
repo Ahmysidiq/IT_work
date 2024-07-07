@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to bottom, rgb(204, 229, 255), rgba(62, 128, 199, 0.4));
+    font-size: 1.15em;
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+}
+.first{
+    display: block;
+    border: 2px;
+    container: 500px;
+    height: 300px;
+    weight:50%;
+    justify-content: left;
+    border: 6px solid rgb(28, 28, 79);
+    
+}
+.middle{
+    display: block;
+    border: 2px;
+    container: 500px;
+    height: 300px;
+    weight:50%;
+    width: 300px;
+    justify-content: right;
+    border: 6px solid rgb(28, 28, 79);
+    
+}
+.last{
+    display: block;
+    border: 2px;
+    container: 500px;
+    height: 300px;
+    weight:20%;
+    justify-content: center;
+    width: 300px;
+    border: 6px solid rgb(28, 28, 79);
+    
+}
+.that{
+    font-style: normal;
+    font-size: large;
+    background: linear-gradient(to right,  rgb(176, 127, 255));
+}
+#content{
+    justify-content: flex-start;
+    background-color: rgb(rgb(33, 97, 78), rgb(88, 133, 88), rgb(133, 66, 139));
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+#images{
+    display: flex;
+    background: rgb(87, 134, 185);
+    float: inline-end;
+}
+fieldset{
+    background: rgb(25, 158, 175);
+    padding: 5px;
+    border: 5px thin salmon;
+}
+input[type=text]{
+    color: aquamarine;
+    background: rgba(96, 96, 155, 0.616);
+
+}
+textarea{
+    background: rgb(34, 54, 54);
+    padding: 10px;
+    border: thin 7px rgb(122, 253, 253);
+}
+textarea:hover{
+    background: rgb(147, 187, 255);
+	padding: 20px 30px;
+}
+button{
+    margin: 20px 10px;
+	padding: 10px 15px;
+	border: none;
+	text-decoration: none;
+	font-family: "Lato", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+	background: rgb(89, 150, 255);
+}
+link:hover{
+    background: rgb(147, 187, 255);
+	padding: 20px 30px;
+}
+link{
+    text-decoration: underline;
+    text-decoration: aqua;
+    background-color: rgb(28, 87, 87);
+    border: thin 7px rgb(14, 59, 59);
+}
